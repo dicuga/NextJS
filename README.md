@@ -8,6 +8,11 @@ yarn add @mui/material @emotion/react @emotion/styled
 yarn add @mui/icons-material
 
 yarn add axios
+
+yarn add prisma --dev
+yarn add @prisma/client
+
+yarn prisma init --datasource-provider mysql
 ```
 
 ## Borrar:
