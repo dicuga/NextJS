@@ -154,11 +154,9 @@ export const Navbar = () => {
         >
           <MenuOutlined />
         </IconButton>
-        <NextLink href="/" passHref>
-          <Link underline='none' color="white">
-            <Typography variant='h6'>MENU</Typography>
-          </Link>
-        </NextLink>
+        <Link href='/page2' underline='none' color="white" component={NextLink} variant="h6">
+          MENU
+        </Link>
       </Toolbar>
     </AppBar>
   )
